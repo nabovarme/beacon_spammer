@@ -9,7 +9,7 @@ airmon-ng start wlan1
 
 cd beacon_spammer
 make
-./packetspammer wlan1mon -n 1000 -r 10 -c [CSA channel]
+./beacon_spammer wlan1mon -n 1000 -r 10 -c [CSA channel]
 ```  
 
-while packetspammer is running, ESP's in the range of the box running packetspammer gives: "switch to channel [CSA channel]"
+while beacon_spammer is running, ESP's in the range of the box running beacon_spammer gives: "switch to channel [CSA channel]"

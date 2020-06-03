@@ -1,5 +1,5 @@
-packetspammer: packetspammer.c
-	gcc  -Wall packetspammer.c -o packetspammer -lpcap
+beacon_spammer: beacon_spammer.c
+	gcc  -Wall beacon_spammer.c -o beacon_spammer -lpcap
 
 clean:
-	rm -f packetspammer
+	rm -f beacon_spammer
