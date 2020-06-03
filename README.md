@@ -16,3 +16,6 @@ make
 while beacon_spammer is running, ESP's in the range of the box running beacon_spammer gives: "switch to channel [CSA channel]"
 
 <img width="742" alt="Wireshark screenshot" src="https://github.com/nabovarme/beacon_spammer/blob/master/wireshark.png">
+
+
+<img width="577" alt="beacon_spammer screenshot" src="https://github.com/nabovarme/beacon_spammer/blob/master/output.png">
