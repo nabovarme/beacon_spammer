@@ -7,6 +7,7 @@ To try out given wireless interface is wlan1:
 ```  
 airmon-ng start wlan1
 
+git clone https://github.com/nabovarme/beacon_spammer.git
 cd beacon_spammer
 make
 ./beacon_spammer wlan1mon -n 1000 -r 10 -c [CSA channel]
