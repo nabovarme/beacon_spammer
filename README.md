@@ -13,7 +13,7 @@ make
 ./beacon_spammer wlan1mon -n 1000 -r 10 -c [CSA channel]
 ```  
 
-while beacon_spammer is running, ESP's in the range of the box running beacon_spammer gives: "switch to channel [CSA channel]"
+while beacon_spammer is running, ESP's in the range of the box running beacon_spammer gives: "switch to channel [CSA channel]" (filter with wlan.tag.number == 37)
 
 <img width="742" alt="Wireshark screenshot" src="https://github.com/nabovarme/beacon_spammer/blob/master/wireshark.png">
 
